@@ -35,6 +35,10 @@ if len(answers) > 0:
 
 
 
+
+
+
+
 # A program that reads in students' names
 # And prints them back once the user
 # enters nothing for a first name
@@ -54,6 +58,10 @@ while len(fName) > 0:
 
 for x, y in zip(firstNames, lastNames):
     print(f"{x} {y}")
+
+
+
+
 
 
 # Program that generates 10 random numbers (0-100)
