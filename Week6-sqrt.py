@@ -1,10 +1,15 @@
 # Write a program that takes a positive floating-point
 # number as input and outputs an approximation of its square
 # root. You should create a function called sqrt that does this.
-# I will try this without using the sqrt function in Math module,
-# This will thus not be an efficient solution, but it is
-# interesting to try.
 
+# I will provide two solutions to demonstrate how significant
+# the difference in efficiency between algorithms can be.
+# The first is a brute force solution, wonderfully inefficient
+# for large input values.
+# The second will use Newton's algorithm, whose efficiency
+# depends on the accuracy desired rather than the number input.
+
+# Solution 1
 # First create a function 'square', then apply it to the
 # number entered by the user.
 
@@ -38,3 +43,26 @@ def square(x):
 x = float(input("Please enter a positive number: "))
 
 print("The square root of " + str(x) + " is approximately " + str(square(x)))
+
+
+# Solution 2
+# Newton's algorithm:
+# better guess = 0.5 * (guess + number/ guess)
+def newton(x):
+    # have the function take a guess
+    guess = x / 2
+    # while the guess is not of a sufficient accuracy,
+    # apply Newton's algorithm to improve it.
+    # To check the accuracy of the guess, square it and
+    # check the difference between the result and the input.
+    while abs(guess ** 2 - x) > x / 1000000:
+        # apply Newton's alogrithm
+        guess = 0.5 * (guess + x / guess)
+        # once the guess is sufficiently accurate the while
+        # loop ends. Now round the result to your liking
+    return round(guess, 1)
+
+x = float(input("Please enter another positive number: "))
+
+print("The square root of " + str(x) + " according to Newton and the Babylonians is approximately " + str(newton(x)))
+
