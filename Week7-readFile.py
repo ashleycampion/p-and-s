@@ -3,7 +3,7 @@
 # The program should take the filename
 # from an argument on the command line.
 
-# to read filename from command line one
+# To read filename from command line one
 # can use sys.argv from sys module, which
 # is a list containing the command line arguments.
 # sys.argv[1] refers to the first argument after
