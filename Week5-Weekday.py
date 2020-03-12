@@ -3,7 +3,7 @@
 #import datetime module
 import datetime
 
-# store weekday value for the current moment
+# Store weekday value for the current moment
 # information on the datetime module is readily
 # available online. For example see the Python docs:
 # https://docs.python.org/3/library/datetime.html
