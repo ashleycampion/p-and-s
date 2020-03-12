@@ -2,7 +2,7 @@
 # f(x)=x, g(x)=x**2 and h(x)=x**3 in the range [0, 4]
 # on the one set of axes.
 
-# import numpy to create arrays
+# Import numpy to create arrays
 # that can be easily manipulated.
 import numpy as np
 # import matplotlib.pyplot to create graphs.
