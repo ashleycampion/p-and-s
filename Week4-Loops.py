@@ -7,6 +7,12 @@
 # There is an ambiguity in the question, however:
 # What if the user enters one?
 # I chose not to end the program immediately in this case.
+# In order not to end the program immediately if the user
+# enters one, a 'while (x != 1)': loop will not work.
+# Instead, a 'while true:' loop can be used, which breaks
+# once 'x = 1'. I appreciate that 'while true:' is not
+# generally considered best practice, but the absence of
+# of a 'do-while' loop in python makes this unavoidable.
 
 # Store the user's input as an integer.
 x = int(input("Enter a positive integer and see what happens: "))
@@ -25,3 +31,7 @@ while True:
         print(x)
     if x == 1:
         break
+
+I only used 'while True:' in order to replicate a do-while loop,
+which I don't believe exists in Python (I thought it more intuitive not to end the program immediatley if the user entered one). I can change this to a 'while x != 1' of course, I'm just wondering is
+there any way in Python to replicate what in Java would be 'do {...} while (x != 1)' without using 'while True:' and breaking when x = 1?

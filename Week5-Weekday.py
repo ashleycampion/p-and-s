@@ -4,9 +4,12 @@
 import datetime
 
 # store weekday value for the current moment
+# information on the datetime module is readily
+# available online. For example see the Python docs:
+# https://docs.python.org/3/library/datetime.html
 x = datetime.datetime.now().weekday()
 
-# if weekday value 'x' is less than 5 then it is a weekday
+# if weekday value 'x' is less than 5 then it is a weekday,
 # otherwise it is the weekend
 
 if x < 5:
