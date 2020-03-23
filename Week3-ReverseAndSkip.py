@@ -1,6 +1,6 @@
-# A programme tp reverse a string entered by the user,
+# A programme to reverse a string entered by the user,
 # delete every second character,
-# nd print the resulting string to a screen.
+# and print the resulting string to a screen.
 
 # First store the user's input into a variable,
 
