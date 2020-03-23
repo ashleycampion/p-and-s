@@ -1,7 +1,9 @@
 # p-and-s
 
-This repository contains the weekly exercises (Week 2 through to week 8) for Programming and Scripting. It also contains one lab exercise.\s\s
-As Programming and Scripting is an introductory module, all code was required to be heavily commented, and comments were supposed to include reference to any sources consulted while writing the code.\s\s
+This repository contains the weekly exercises (Week 2 through to week 8) for Programming and Scripting. It also contains one lab exercise.
+
+As Programming and Scripting is an introductory module, all code was required to be heavily commented, and comments were supposed to include reference to any sources consulted while writing the code.
+
 The repository contains the following python programs:
 * Week2-BMI.py  -  a program for calculating BMI
 * Week3-ReverseAndSkip.py  -  a program involving basic string manipulation
