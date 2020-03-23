@@ -10,4 +10,4 @@ The repository contains the following python programs:
 * Week6-sqrt.py  -  a program to find the square root of a float with a custom function
 * Week7-readFile.py  -  a program that reads in a text file and outputs the number of e's it contains.
 * Week8-plots.py  -  a program that displays multiple plots on the one set of axes.
-* lab04.01-grade.py  -  a program to calculate a student's grade based on inputted percentage (not for grading).
+* lab04.01-grade.py  -  a program to calculate a student's grade based on inputted percentage.
