@@ -38,6 +38,8 @@ values = np.arange(0, 4, 0.5)
 plt.plot(values, values, label = 'f(x)=x')
 plt.plot(values, values**2, label = 'f(x)=x**2')
 plt.plot(values, values**3, label = 'f(x)=x**3')
+plt.xlabel("x")
+plt.ylabel("f (x)")
 # title() creates a title
 plt.title('Week 8 Assignment')
 # legend() will include the 'labels' above in a legend,
