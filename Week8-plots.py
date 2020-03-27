@@ -10,7 +10,10 @@ import matplotlib.pyplot as plt
 # create array of values that function
 # will be applied to, with the resulting
 # array plotted against the original array.
-values = np.arange(4)
+# Originally I went in steps of one here, but
+# steps of 0.5 are probably better considering
+# the small range of values.
+values = np.arange(0, 4, 0.5)
 # The plt.plot() method creates an Axes object
 # (in English, a plotting of x and y values)
 # for the current Figure object
@@ -43,3 +46,4 @@ plt.title('Week 8 Assignment')
 plt.legend(loc='upper left')
 # Finally, show() will display this Figure object to the user.
 plt.show()
+plt.savefig("Week8-plots.jpg")
