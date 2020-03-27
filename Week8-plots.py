@@ -45,5 +45,5 @@ plt.title('Week 8 Assignment')
 # where the legend is positioned.
 plt.legend(loc='upper left')
 # Finally, show() will display this Figure object to the user.
-plt.show()
 plt.savefig("Week8-plots.jpg")
+plt.show()
