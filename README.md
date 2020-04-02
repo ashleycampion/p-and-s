@@ -21,6 +21,7 @@ As Programming and Scripting is an introductory module, all code was required to
 * Week5-WeekDay.py  -  a program that outputs whether or not today is a weekday.
 * Week6-sqrt.py  -  a program to find the square root of a float using a custom function.
 * Week7-readFile.py  -  a program that reads in a text file and outputs the number of e's it contains.
+* Week8-plots.jpg - the output of 'Week8-plots.py' (a plot saved as a .jpg file)
 * Week8-plots.py  -  a program that displays multiple plots on the one set of axes.
 * lab04.01-grade.py  -  a program to calculate a student's grade based on inputted percentage.
 
