@@ -3,14 +3,13 @@
 This repository contains my solutions to the weekly exercises (Week 2 through to week 8) of GMIT's Higher Diploma in Data Analytic's 'Programming and Scripting' module. It also contains one lab exercise from the module.
 
 ### How to Download this Repository
-Click on the green 'Clone or download' button near the top right of this page, and then select 'Download ZIP'. You will need to then unzip the downloaded file.
+Click on the green 'Clone or download' button near the top right of this page, and then select 'Download ZIP'. You will then need to unzip the downloaded file. You can download 7-zip [here](https://www.7-zip.org/download.html).
 
 ### What is Needed to Run the Python Scripts
-Python 3.7.4 was used to create the scripts in this repository (download it [here](https://www.python.org/downloads/)). Any version of Python 3 can run the scripts.
+Python 3.7.4 was used to create the scripts in this repository (download it [here](https://www.python.org/downloads/)). Any version of Python 3 can run the scripts. You can also download Python by downloading the Python distribution, Anaconda. You can download Anaconda [here](https://www.anaconda.com/distribution/), and you will find instructions on how to download and install Anaconda for Windows [here](https://docs.anaconda.com/anaconda/install/windows/).
 
 ### How to Run the Python Scripts
-See the section 'How to Run Python Scripts Using the Command-Line' [here](https://realpython.com/run-python-scripts/)
-
+See the section 'How to Run Python Scripts Using the Command-Line' [here](https://realpython.com/run-python-scripts/).
 
 ### Note on Comments
 As Programming and Scripting is an introductory module, all code was required to be heavily commented, and comments were supposed to include reference to any sources consulted while writing the code.
