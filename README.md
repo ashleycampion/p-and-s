@@ -6,7 +6,7 @@ This repository contains my solutions to the weekly exercises (Week 2 through to
 Click on the green 'Clone or download' button near the top right of this page, and then select 'Download ZIP'. You will then need to unzip the downloaded file. You can download 7-zip [here](https://www.7-zip.org/download.html).
 
 ### What is Needed to Run the Python Scripts
-Python 3.7.4 was used to create the scripts in this repository (download it [here](https://www.python.org/downloads/)). Any version of Python 3 can run the scripts. You can also download Python by downloading the Python distribution, Anaconda. You can download Anaconda [here](https://www.anaconda.com/distribution/), and you will find instructions on how to download and install Anaconda for Windows [here](https://docs.anaconda.com/anaconda/install/windows/).
+Python 3.7.4 was used to create the scripts in this repository (download it [here](https://www.python.org/downloads/)). Detailed instructions on how to download and install the latest version of Python are available [here](https://realpython.com/installing-python/). Any version of Python 3 can run the scripts. You can also download Python by downloading the Python distribution, Anaconda. You can download Anaconda [here](https://www.anaconda.com/distribution/), and you will find instructions on how to download and install Anaconda for Windows [here](https://docs.anaconda.com/anaconda/install/windows/).
 
 ### How to Run the Python Scripts
 See the section 'How to Run Python Scripts Using the Command-Line' [here](https://realpython.com/run-python-scripts/).
@@ -19,7 +19,7 @@ As Programming and Scripting is an introductory module, all code was required to
 * Week3-ReverseAndSkip.py  -  a program involving basic string manipulation.
 * Week4-loops.py  -  a program involving basic usage of while and if/else loops.
 * Week5-WeekDay.py  -  a program that outputs whether or not today is a weekday.
-* Week6-sqrt.py  -  a program to find the square root of a float with a custom function.
+* Week6-sqrt.py  -  a program to find the square root of a float using a custom function.
 * Week7-readFile.py  -  a program that reads in a text file and outputs the number of e's it contains.
 * Week8-plots.py  -  a program that displays multiple plots on the one set of axes.
 * lab04.01-grade.py  -  a program to calculate a student's grade based on inputted percentage.
