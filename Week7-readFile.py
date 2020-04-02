@@ -9,7 +9,8 @@
 # sys.argv[1] refers to the first argument after
 # the name of the python script to be run itself,
 # which would represent the file we want to read in.
-
+# for more info on sys.argv, see here:
+# https://stackabuse.com/command-line-arguments-in-python/
 import sys
 fileToRead = sys.argv[1]
 
