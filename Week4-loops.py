@@ -24,6 +24,7 @@ while True:
 # to determine if the variable is even, use the modulus operator (x % 2 = 0);
 # in all other cases the variable is odd.
     if x % 2 == 0:
+        # use floor division '//' so that an integer rather than a float results.
         x = x // 2
         print(x)
     else:
@@ -31,7 +32,3 @@ while True:
         print(x)
     if x == 1:
         break
-
-I only used 'while True:' in order to replicate a do-while loop,
-which I don't believe exists in Python (I thought it more intuitive not to end the program immediatley if the user entered one). I can change this to a 'while x != 1' of course, I'm just wondering is
-there any way in Python to replicate what in Java would be 'do {...} while (x != 1)' without using 'while True:' and breaking when x = 1?
