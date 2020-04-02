@@ -8,6 +8,7 @@
 # for large input values.
 # The second will use Newton's algorithm, whose efficiency
 # depends on the accuracy desired rather than the number input.
+# I didn't both timing them, as that's beyond the scope of this.
 
 # Solution 1
 # First create a function 'square', then apply it to the
@@ -39,8 +40,8 @@ def square(x):
 
 
 
-
-x = float(input("Please enter a positive number: "))
+print("Please enter a positive number and I'll brute force its square root")
+x = float(input("( make it less than 999999, unles you're veeeeerrrrry patient): "))
 
 print("The square root of " + str(x) + " is approximately " + str(square(x)))
 
@@ -62,7 +63,7 @@ def newton(x):
         # loop ends. Now round the result to your liking
     return round(guess, 1)
 
-x = float(input("Please enter another positive number: "))
+x = float(input("Please enter another positive number (as large as you'd like): "))
 
-print("The square root of " + str(x) + " according to Newton and the Babylonians is approximately " + str(newton(x)))
+print("The square root of " + str(x) + " according to Newton (and the Babylonians) is approximately " + str(newton(x)))
 
